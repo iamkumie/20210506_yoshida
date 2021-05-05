@@ -1,0 +1,65 @@
+.c-top {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url("../img/mv.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap-s {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.c-contact-form-item-name {
+  font-weight: bold;
+}
+
+.c-contact-form-item-input {
+  margin-top: 5px;
+  font-size: 16px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
+
+.c-contact-form-item:not(:first-child) {
+  margin-top: 20px;
+}
+
+.c-contact-form-item-required {
+  color: #cd0224;
+  margin-left: 5px;
+}
+
+.c-contact-form-item-textarea {
+  font-size: 16px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  resize: none;
+}
+
+.c-contact-form-submit {
+  width: 300px;
+  margin: 20px auto 0;
+  padding: 10px;
+  border: none;
+  display: block;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  appearance: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap-s {
+    width: 90%;
+  }
+}

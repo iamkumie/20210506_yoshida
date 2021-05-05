@@ -1,0 +1,46 @@
+.c-top {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url("../img/mv.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap-s {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.c-company-info {
+  width: 100%;
+  border-bottom: 1px solid #222;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.c-company-info-name {
+  font-weight: bold;
+  width: 30%;
+}
+
+.c-company-info-data {
+  width: 70%;
+}
+
+.c-company-info-name,
+.c-company-info-data {
+  padding: 20px 0;
+  border-top: 1px solid #222;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap-s {
+    width: 90%;
+  }
+}
